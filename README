@@ -1,9 +1,0 @@
-Dependency:
-
-Node.js
-
-TO RUN:
-
-cd <project>
-node server.js
-
