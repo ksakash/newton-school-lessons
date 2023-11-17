@@ -2,7 +2,7 @@
 
 # Simple Node.js Demo
 
-This repository contains a collection of simple Node.js programs for demonstratin purposes.
+This repository contains a collection of simple Node.js programs for demonstration purposes.
 
 ## Dependency
 
