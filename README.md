@@ -54,7 +54,7 @@ This repository contains a collection of simple Node.js programs for demonstrati
     cd program1
     ```
 
-    ```bash
+    bash
     cd program2
     ```
 
@@ -64,7 +64,7 @@ This repository contains a collection of simple Node.js programs for demonstrati
 
     For each program, run the following commands:
 
-    ```bash
+    bash
     cd program-folder
     npm install
     node server.js
