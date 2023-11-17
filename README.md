@@ -14,7 +14,7 @@ This repository contains a collection of simple Node.js programs for demonstrati
 
 2. **Clone the forked repository to your local machine:**
 
-    ```bash
+    
     git clone https://github.com/your-username/newton-school-lessons.git
     ```
 
