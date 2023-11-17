@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = ;
 
 // Middleware to parse JSON requests
 app.use(express.json());
@@ -36,7 +36,7 @@ app.get('/todos/:id', (req, res) => {
 
     const existingTodo = todos.find((todo) => todo.id === id);
     if (!existingTodo) {
-      return res.status(404).json({ error: 'Todo not found' });
+      return res.status(404).json({ error: '' });
     }
     res.json(existingTodo);
 });
