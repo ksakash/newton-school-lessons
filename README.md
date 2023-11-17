@@ -2,7 +2,7 @@
 
 # Simple Node.js Demo
 
-This repository contains a collection of simple Node.js programs for demonstratin purposes.
+This repository contains a collection of simple Node.js programs for demonstration purposes.
 
 ## Dependency
 
@@ -16,7 +16,7 @@ This repository contains a collection of simple Node.js programs for demonstrati
 
 2. **Clone the forked repository to your local machine:**
 
-    
+
     git clone https://github.com/your-username/newton-school-lessons.git
     ```
 
