@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/home', (req, res) => {
-  res.send('Welcome to the homepage!');
+  res.send('');
 });
 
 // Route to update a todo item by ID
