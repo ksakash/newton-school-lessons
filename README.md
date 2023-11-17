@@ -1,3 +1,5 @@
+# NOTE: If you are not assigned as issue then please don't open a PR on it. This repository is only meant for educational purposes (teaching students github).
+
 # Simple Node.js Demo
 
 This repository contains a collection of simple Node.js programs for demonstratin purposes.
