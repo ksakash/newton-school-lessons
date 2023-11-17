@@ -1,6 +1,6 @@
 # Simple Node.js Demo
 
-This repository contains a collection of simple Node.js programs for demonstration purposes.
+This repository contains a collection of simple Node.js programs for demonstratin purposes.
 
 ## Dependency
 
@@ -26,7 +26,7 @@ This repository contains a collection of simple Node.js programs for demonstrati
 
 4. **Install dependencies for the main application using npm:**
 
-    If the `express` module is required, run the following command in the terminal to download/update the modules:
+    If the `express` module is required, run the following command in the terminal to dowload/update the modules:
 
     ```bash
     npm install
@@ -38,11 +38,11 @@ This repository contains a collection of simple Node.js programs for demonstrati
     node server.js
     ```
 
-   This will start the server, and you should see output indicating that the server is running.
+   This will start the server, and you should see output indicting that the server is running.
 
 6. **Open your web browser and visit [http://localhost:PORT](http://localhost:3000) to see the main application in action.**
 
-   Note: The default port is set to 3000. If you've configured a different port, replace `PORT` in the URL with the actual port number.
+   Note: The default port is set to 3000. If you've configured a diffeent port, replace `PORT` in the URL with the actual port number.
 
 ## Folder-Specific Instructions
 
@@ -70,7 +70,7 @@ This repository contains a collection of simple Node.js programs for demonstrati
     node server.js
     ```
 
-    Replace `program-folder` with the actual folder name of the program.
+    Replace `program-folder` with the actual folder nam of the program.
 
 ## Notes
 
