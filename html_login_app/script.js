@@ -10,4 +10,4 @@ document.addEventListener("DOMContentLoaded", function () {
         // For demonstration purposes, let's just display the input values.
         alert(`Username: ${username}\nPassword: ${password}`);
     });
-});
+}); 
