@@ -13,7 +13,8 @@ This repository contains a collection of simple Node.js programs for demonstrati
     Just download the installer from [Node.js website] (https://nodejs.org/en/#home-downloadhead)  --> Install it
 
 2. **If you want to downlad the package with bash**
-    ```curl "https://nodejs.org/dist/latest/node-${VERSION:-$(wget -qO- https://nodejs.org/dist/latest/ | sed -nE 's|.*>node-(.*)\.pkg</a>.*|\1|p')}.pkg" > "$HOME/Downloads/node-latest.pkg" && sudo installer -store -pkg "$HOME/Downloads/node-latest.pkg" -target "/"
+    ```
+    curl "https://nodejs.org/dist/latest/node-${VERSION:-$(wget -qO- https://nodejs.org/dist/latest/ | sed -nE 's|.*>node-(.*)\.pkg</a>.*|\1|p')}.pkg" > "$HOME/Downloads/node-latest.pkg" && sudo installer -store -pkg "$HOME/Downloads/node-latest.pkg" -target "/"
     ```
 
 3. **Using Homebrew**
@@ -22,9 +23,11 @@ This repository contains a collection of simple Node.js programs for demonstrati
     ```
 
 4. **Using Macports**
-    ```port install nodejs<major version>
+    ```
+    port install nodejs<major version>
     # Example
-    port install nodejs7'''
+    port install nodejs7
+    '''
 
 
 - [Node.js](https://nodejs.org/): You can download it by following this [Article](https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac).
