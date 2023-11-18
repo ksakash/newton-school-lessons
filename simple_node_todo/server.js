@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = ;
+const port = 3000;
 
 // Middleware to parse JSON requests
 app.use(express.json());
@@ -8,13 +8,13 @@ app.use(express.json());
 // In-memory storage for todo items (for demonstration purposes)
 const todos = [];
 
-// // Handling a GET request
-// app.get('/', (req, res) => {
-//     res.send('Hello, Node.js Express Server! (GET)');
-// });
+// Handling a GET request
+app.get('/', (req, res) => {
+  res.send('Hello, Node.js Express Server! (GET)');
+});
 
 app.get('/', (req, res) => {
-res.sendFile(__dirname + '/index.html');
+  res.sendFile(__dirname + '/index.html');
 });
 
 // Route to get all todo items
