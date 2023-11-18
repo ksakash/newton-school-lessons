@@ -36,7 +36,7 @@ app.get('/todos/:id', (req, res) => {
 
     const existingTodo = todos.find((todo) => todo.id === id);
     if (!existingTodo) {
-      return res.status(404).json({ error: '' });
+      return res.status(404).json({ error: 'Todo not found' });
     }
     res.json(existingTodo);
 });
