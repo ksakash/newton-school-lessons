@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = ;
+const port = 56 ;
 
 // Middleware to parse JSON requests
 app.use(express.json());
