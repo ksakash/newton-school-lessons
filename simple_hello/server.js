@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = ;
+const port = 3000;
 
 // Middleware to parse JSON requests
 app.use(express.json());
@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/home', (req, res) => {
-  res.send('');
+  res.send('hello world');
 });
 
 // Route to update a todo item by ID
