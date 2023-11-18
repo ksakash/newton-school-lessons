@@ -73,7 +73,7 @@ This repository contains a collection of simple Node.js programs for demonstrati
     ```
 
     Replace `program-folder` with the actual folder name
-     of the program.
+    of the program.
 
 ## Notes
 
