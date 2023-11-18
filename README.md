@@ -43,7 +43,7 @@ This repository contains a collection of simple Node.js programs for demonstrati
 
 2. **Clone the forked repository to your local machine:**
 
-    ```
+    ```basg
     git clone https://github.com/your-username/newton-school-lessons.git
     ```
 
@@ -92,7 +92,7 @@ This repository contains a collection of simple Node.js programs for demonstrati
 8. **Install dependencies and run each program in its respective folder:**
 
     For each program, run the following commands:
-
+    ```
     bash
     cd program-folder
     npm install
