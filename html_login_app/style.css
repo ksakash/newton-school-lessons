@@ -7,7 +7,7 @@ body {
     height: 100vh;
     margin: 0;
 
-
+}
 .login-container {
     background-color: #fff;
     padding: 20px;
@@ -42,7 +42,7 @@ label {
 
 input {
     width: calc(100%-20px);
-    padding: 10px
+    padding: 10px;
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
