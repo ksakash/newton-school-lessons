@@ -12,7 +12,7 @@ const users = [
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-    res.status(200).json({message: ''});
+    res.status(200).json({message: 'Hello World'});
 });
 
 // Endpoint for user authentication
