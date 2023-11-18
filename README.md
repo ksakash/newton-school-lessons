@@ -72,7 +72,8 @@ This repository contains a collection of simple Node.js programs for demonstrati
     node server.js
     ```
 
-    Replace `program-folder` with the actual folder nam of the program.
+    Replace `program-folder` with the actual folder name
+     of the program.
 
 ## Notes
 
