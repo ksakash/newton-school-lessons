@@ -8,7 +8,7 @@ app.use(express.json());
 // In-memory storage for todo items (for demonstration purposes)
 const todos = [];
 
-// // Handling a GET request
+// Handling a GET request
 // app.get('/', (req, res) => {
 //     res.send('Hello, Node.js Express Server! (GET)');
 // });
@@ -36,7 +36,7 @@ app.get('/todos/:id', (req, res) => {
 
     const existingTodo = todos.find((todo) => todo.id === id);
     if (!existingTodo) {
-      return res.status(404).json({ error: '' });
+      return res.status(404).json({ error: 'Todo not found' });
     }
     res.json(existingTodo);
 });
