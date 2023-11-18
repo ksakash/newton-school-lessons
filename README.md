@@ -17,7 +17,8 @@ This repository contains a collection of simple Node.js programs for demonstrati
     ```
 
 3. **Using Homebrew**
-    ```brew install node
+    ```
+    brew install node
     ```
 
 4. **Using Macports**
