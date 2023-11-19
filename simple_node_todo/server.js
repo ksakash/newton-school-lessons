@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = ;
+const port = 3000; // Set the desired port number
 
 // Middleware to parse JSON requests
 app.use(express.json());
@@ -8,13 +8,9 @@ app.use(express.json());
 // In-memory storage for todo items (for demonstration purposes)
 const todos = [];
 
-// // Handling a GET request
-// app.get('/', (req, res) => {
-//     res.send('Hello, Node.js Express Server! (GET)');
-// });
-
+// Handling of HTTP requests
 app.get('/', (req, res) => {
-res.sendFile(__dirname + '/index.html');
+  res.sendFile(__dirname + '/index.html');
 });
 
 // Route to get all todo items
@@ -29,25 +25,24 @@ app.post('/todos', (req, res) => {
   res.status(201).json(newTodo);
 });
 
-// Route to update a todo item by ID
+// Route to get a todo item by ID
 app.get('/todos/:id', (req, res) => {
-    const id = parseInt(req.params.id);
-    const updatedTodo = req.body;
+  const id = parseInt(req.params.id);
+  const existingTodo = todos.find((todo) => todo.id === id);
 
-    const existingTodo = todos.find((todo) => todo.id === id);
-    if (!existingTodo) {
-      return res.status(404).json({ error: '' });
-    }
-    res.json(existingTodo);
+  if (!existingTodo) {
+    return res.status(404).json({ error: 'Todo not found' });
+  }
+
+  res.json(existingTodo);
 });
-
 
 // Route to update a todo item by ID
 app.put('/todos/:id', (req, res) => {
   const id = parseInt(req.params.id);
   const updatedTodo = req.body;
-
   const existingTodo = todos.find((todo) => todo.id === id);
+
   if (!existingTodo) {
     return res.status(404).json({ error: 'Todo not found' });
   }
@@ -60,6 +55,7 @@ app.put('/todos/:id', (req, res) => {
 app.delete('/todos/:id', (req, res) => {
   const id = parseInt(req.params.id);
   const index = todos.findIndex((todo) => todo.id === id);
+
   if (index === -1) {
     return res.status(404).json({ error: 'Todo not found' });
   }
