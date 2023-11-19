@@ -8,7 +8,7 @@ app.use(express.json());
 // In-memory storage for todo items (for demonstration purposes)
 const todos = [];
 
-// Handling a GET request to serve an HTML file
+// Handling of HTTP requests
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html');
 });
