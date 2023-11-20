@@ -6,6 +6,8 @@ This repository contains a collection of simple Node.js programs for demonstrati
 
 ## Dependency
 
+## How to install Node.js
+
 - [Node.js](https://nodejs.org/): You can download it by following this [Article](https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac).
 
 ## How to Run
