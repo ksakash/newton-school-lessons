@@ -40,7 +40,7 @@ This repository contains a collection of simple Node.js programs for demonstrati
     node server.js
     ```
 
-   This will start the server, and you should see output indicting that the server is running.
+   This will start the server, and you should see output indicating that the server is running.
 
 6. **Open your web browser and visit [http://localhost:PORT](http://localhost:3000) to see the main application in action.**
 
