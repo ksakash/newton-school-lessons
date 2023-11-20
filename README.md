@@ -28,7 +28,7 @@ This repository contains a collection of simple Node.js programs for demonstrati
 
 4. **Install dependencies for the main application using npm:**
 
-    If the `express` module is required, run the following command in the terminal to dowload/update the modules:
+    If the `express` module is required, run the following command in the termnal to dowload/update the modules:
 
     ```bash
     npm install
