@@ -4,7 +4,7 @@
 
 This repository contains a collection of simple Node.js programs for demonstration purposes.
 
-## Dependency
+## Dependency**
 
 - [Node.js](https://nodejs.org/): You can download it by following this [Article](https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac).
 
