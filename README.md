@@ -2,7 +2,7 @@
 
 This repository contains a collection of simple Node.js programs for demonstration purposes.
 
-## Dependency
+## Depend
 
 
 ## How to install Node.js
